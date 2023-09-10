@@ -8,3 +8,8 @@
   gather_facts: false
   roles:
     - wake
+
+- name: Enable wake-on-lan
+  hosts: metal
+  roles:
+    - enable_wol
