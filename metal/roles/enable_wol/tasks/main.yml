@@ -1,0 +1,6 @@
+- name: nmcli enable wol
+  command:
+    cmd: nmcli c modify {{ network_interface }} 802-3-ethernet.wake-on-lan magic
+
+- name: Reboot the machine
+  ansible.builtin.reboot:
