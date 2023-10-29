@@ -1,7 +1,7 @@
 renovate:
   cronjob:
     #schedule: '0 9 * * *'  # Everyday at 09:00
-    schedule: '0/15 * * * *' # Every 15 mins
+    schedule: '*/15 * * * *' # Every 15 mins
   renovate:
     config: |
       {
