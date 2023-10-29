@@ -43,5 +43,5 @@ docker-registry:
     enabled: true
     size: 10Gi
     storageClass: longhorn
-  garbageCollect:
-    enabled: true
+  #garbageCollect:
+  #  enabled: true
