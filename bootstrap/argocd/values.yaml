@@ -35,7 +35,7 @@ argo-cd:
       serviceMonitor:
         enabled: true
   dex:
-    enabled: true
+    enabled: false
   controller:
     metrics: *metrics
   repoServer:
