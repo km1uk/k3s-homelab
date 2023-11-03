@@ -42,6 +42,7 @@ docker-registry:
   #         name: auth
   persistence:
     enabled: true
+    deleteEnabled: true
     size: 10Gi
     storageClass: longhorn
   #garbageCollect:
