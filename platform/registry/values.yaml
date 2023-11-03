@@ -1,4 +1,5 @@
 docker-registry:
+  replicaCount: 1
   ingress:
     enabled: true
     className: nginx
