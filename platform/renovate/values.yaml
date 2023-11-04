@@ -9,6 +9,7 @@ renovate:
         "endpoint": "https://git.kgmm.co.uk/api/v1",
         "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
         "autodiscover": true,
+        "ignoreTests": true,
         "packageRules": [
           {
             "matchUpdateTypes": ["patch"],
